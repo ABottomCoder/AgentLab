@@ -9,6 +9,13 @@ Claude to find the current page.
 - Python, SQLite and pytest are a simple start. Any language is fine if your README and CI cover it.
 - A decision record (`docs/decisions/000-template.md`) is worth writing whenever you pick between options.
 - Keep secrets in `.env` (git-ignored); in CI and on a host, use their secret settings.
+- If a key ever reaches git history, revoke and replace it first; cleaning history comes second.
+- Tests that need no keys or network: record a few real responses once and replay them as fixtures.
+
+## Evaluation terms worth looking up
+
+Precision and recall, a confusion matrix, inter-annotator (and self-) agreement, a train/holdout split
+and why you only look at the holdout once, and run-to-run agreement for non-deterministic models.
 
 ## Recruiter Watch
 
@@ -34,6 +41,8 @@ Claude to find the current page.
   job aggregators with developer APIs, community threads, government data, and your own inbox.
 - Gmail API with OAuth and a read-only scope, for job-alert emails.
 - For the agent: the Claude API tool-use documentation (how `tool_use` and `tool_result` blocks pair up).
-- Hosting: static or serverless hosts, small app hosts, and hosted Postgres with a free tier.
+- Hosting: static or serverless hosts, small app hosts, and hosted Postgres with a free tier. Keeping
+  personal data private can be simple: a host's built-in password protection, one login for you, or a
+  public page that shows aggregates only.
 - Public data that can feed insights: state WARN layoff notices, and the US Department of Labor's H-1B
   disclosure data.

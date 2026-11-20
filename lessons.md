@@ -11,7 +11,7 @@ Template:
 - What happened:
 - Why it happened:
 - How to prevent it:
-- Promoted to a rule: no / yes, CLAUDE.md rule __
+- Promoted to a rule: no / yes (quote the rule as it appears in CLAUDE.md)
 ```
 
 ---

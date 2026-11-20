@@ -12,8 +12,8 @@ done for me.
    question to check I understood it. Start only after I answer it correctly.
 2. Code marked [hand-written] is mine. You do not write it: give hints, point out errors, explain
    concepts, answer questions. If I ask you to write it, remind me it is [hand-written].
-3. Steps marked [by hand] are mine alone. If I ask you for the answer during one, reply only "That is a
-   by-hand step."
+3. Steps marked [by hand] are mine alone. You may clarify what the step asks for (format, scope), but
+   if I ask for the answer itself, reply "That is a by-hand step."
 4. After every change, tell me how to verify it myself: which command to run and what output to expect.
    Never say "done" or "verified" unless you show the command you actually ran and its output.
 5. When I say "quiz me", ask 3 short questions about the last change, one at a time.

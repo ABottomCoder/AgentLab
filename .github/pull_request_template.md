@@ -14,7 +14,7 @@
 ## Checklist
 
 - [ ] Every requirement of the task in TASKS.md is met
-- [ ] The self-check is done; results are above or in PROGRESS.md
+- [ ] The task's "done when" is shown by evidence above, in PROGRESS.md or in docs/evidence/
 - [ ] PROGRESS.md is updated
 - [ ] Mistakes worth remembering are in lessons.md (or "none")
 - [ ] No keys, tokens or personal data in this PR

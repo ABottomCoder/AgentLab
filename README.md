@@ -30,7 +30,15 @@ This starter repo is public; your work lives in a repo of your own.
 4. Send your repo URL to the people checking your work. If you keep it private, add them as
    collaborators so they can pull it. They only pull and run your code; they never push to your repo.
 
-Updates to the task list may land in the starter repo later; `git pull starter main` brings them in.
+Updates to the task list may land in the starter repo later. To bring them in, commit your work first,
+then `git pull starter main` on your `main` branch. If a file you also edited conflicts (`HANDOFF.md`,
+`PROGRESS.md`), keep your version.
+
+## What never goes in the repo
+
+Your resume, your application records, labels with personal notes, and screenshots that show your
+inbox or other personal details. Keep them in `data/private/` (git-ignored). Your repo can then be
+public without exposing you.
 
 ## Getting started
 
@@ -61,8 +69,8 @@ On purpose. Claude Code can write a lot of the code, but every task has a part i
 - **What you must prove**: acceptance is command output and evaluation numbers, not Claude saying "done".
 - **What you do live**: at each gate you explain your work and make a small change without Claude.
 
-[hand-written] and [by hand] steps run on trust. Skipping them shows up at the gates, so there is no
-point.
+[hand-written] and [by hand] steps run on trust. They are where most of the learning happens, and the
+gates are where you get to show it.
 
 ## What it costs
 
@@ -78,9 +86,13 @@ first call.
 
 ## Checks
 
-- About every two weeks we pull your repo, run it, and read the commits, PRs, `PROGRESS.md` and
-  evaluation results. We do not change anything in it; feedback comes to you directly.
-- Each layer ends with a live gate (C1–C3 in TASKS.md).
+- About every two weeks we pull your repo, run your tests (they need no keys), and read the commits,
+  PRs, `PROGRESS.md`, evidence and evaluation results. We do not change anything in it; feedback comes
+  to you directly.
+- Each layer ends with a live gate (C1–C3 in TASKS.md). Tell us when you reach one; the live parts run
+  on your machine, with your keys.
+- There is no deadline. If something is unclear or you are stuck for days, ask: that is what the checks
+  are for.
 - The task list may change as you go. Changes land in this starter repo; `git pull starter main`
   brings them in.
 
