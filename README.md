@@ -16,7 +16,7 @@ JobRadar, finished, is a project you can talk about for 30 minutes in an intervi
 
 ## Set up your own copy
 
-You get read access to the starter repo; your work lives in a repo of your own.
+This starter repo is public; your work lives in a repo of your own.
 
 1. Clone the starter repo.
 2. On GitHub, create an **empty private** repo under your account (no README, no license).
