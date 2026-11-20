@@ -1,0 +1,40 @@
+# secrets and personal data
+.env
+.env.*
+!.env.example
+data/private/
+**/data/private/
+credentials*.json
+client_secret*.json
+token*.json
+
+# local state
+*.db
+*.sqlite
+*.sqlite3
+logs/
+.cache/
+
+# python
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+build/
+dist/
+
+# node (dashboard)
+node_modules/
+.next/
+.vercel/
+.netlify/
+
+# editors and OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db

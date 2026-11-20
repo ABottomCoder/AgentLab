@@ -1,0 +1,85 @@
+# AgentLab
+
+Learn to work with AI agents by building tools you will actually use while job hunting.
+
+Four projects, from small to large:
+
+| Project | What you end up with |
+|---|---|
+| Recruiter Watch | job posts from recruiters on X, pushed to your phone |
+| HN Hiring Digest | the monthly "Who is hiring?" thread, turned into structured data |
+| Workflow Kit | your own Claude Code setup: lessons, hooks, skills, subagents |
+| JobRadar | your job-search tool: many sources, daily picks, application tracking, a deployed dashboard, insights |
+
+Along the way you go from *using* an agent, to *making it reliable*, to *building one yourself*.
+JobRadar, finished, is a project you can talk about for 30 minutes in an interview.
+
+## Set up your own copy
+
+You get read access to the starter repo; your work lives in a repo of your own.
+
+1. Clone the starter repo.
+2. On GitHub, create an **empty private** repo under your account (no README, no license).
+3. Point your clone at it and push:
+   ```bash
+   git remote rename origin starter
+   git remote add origin <your-repo-url>
+   git push -u origin main
+   ```
+4. In your repo's settings, add the people checking your work as collaborators, so they can pull it.
+
+Updates to the task list may land in the starter repo later; `git pull starter main` brings them in.
+
+## Getting started
+
+1. Open this folder with Claude Code. It reads `CLAUDE.md`, whose "coach mode" makes it a coach rather
+   than someone who does the work for you.
+2. Read [TASKS.md](TASKS.md) and start with S1.
+3. Before each session, glance at [HANDOFF.md](HANDOFF.md) to see where you left off.
+
+## How to work here
+
+1. One branch per task, named after it (`rw2-incremental-fetch`).
+2. Open a PR into `main` and fill in the template.
+3. CI must be green (tests and the secret scan).
+4. Merge it yourself. Update [PROGRESS.md](PROGRESS.md) in the same PR.
+5. When Claude makes a mistake worth remembering, add it to [lessons.md](lessons.md).
+6. When you choose between options, write a decision record in `docs/decisions/` (template
+   `000-template.md`).
+
+## Why this is not easy even with Claude Code
+
+On purpose. Claude Code can write a lot of the code, but every task has a part it cannot do for you:
+
+- **What only you know**: which roles and companies you want, which jobs are worth applying to, your
+  resume.
+- **What only you can do**: sign up for accounts, get keys, create bots, deploy.
+- **What you must judge**: some requirements are left open on purpose. You set the standard and write
+  down why.
+- **What you must prove**: acceptance is command output and evaluation numbers, not Claude saying "done".
+- **What you do live**: at each gate you explain your work and make a small change without Claude.
+
+[hand-written] and [by hand] steps run on trust. Skipping them shows up at the gates, so there is no
+point.
+
+## Checks
+
+- About every two weeks we pull the repo and read the commits, PRs, `PROGRESS.md` and evaluation results.
+  Feedback comes as a GitHub issue.
+- Each layer ends with a live gate (C1–C3 in TASKS.md).
+- The task list may change as you go. Changes come as PRs, so you will see them.
+
+## Map
+
+| Path | What it is for |
+|---|---|
+| `TASKS.md` | every task and how it is checked |
+| `PROGRESS.md` | your log, one entry per task |
+| `HANDOFF.md` | where you are and what is next, mainly for a fresh Claude session |
+| `lessons.md` | mistakes (Claude's and yours) and how to prevent them |
+| `CLAUDE.md` | rules for Claude Code, including coach mode |
+| `projects/` | the four projects |
+| `docs/decisions/` | decision records |
+| `docs/evidence/` | screenshots and command output |
+| `docs/reference/` | optional notes and starting points, never requirements |
+| `.env.example` | which keys you need (real ones go in `.env`, never committed) |
