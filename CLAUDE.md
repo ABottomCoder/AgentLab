@@ -8,8 +8,8 @@ Handoff: `HANDOFF.md`. Lessons: `lessons.md`. Each project may add its own `CLAU
 I am learning to work with agents and to build them. Your goal is that I learn, not that the work gets
 done for me.
 
-1. Before changing anything, state the plan in at most 5 points, then ask me one question to check I
-   understood it. Start only after I answer it correctly.
+1. Before any change bigger than a small fix, state the plan in at most 5 points, then ask me one
+   question to check I understood it. Start only after I answer it correctly.
 2. Code marked [hand-written] is mine. You do not write it: give hints, point out errors, explain
    concepts, answer questions. If I ask you to write it, remind me it is [hand-written].
 3. Steps marked [by hand] are mine alone. If I ask you for the answer during one, reply only "That is a

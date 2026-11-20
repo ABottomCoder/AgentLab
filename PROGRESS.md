@@ -12,7 +12,7 @@ Template:
 - What I did:
 - What Claude did:
 - Where I got stuck, and how I got out:
-- Answers to the questions the task asks:
+- Decisions I made, and why (link the decision record if there is one):
 - Evidence (commands and output, screenshot paths, PR link):
 - Time spent:
 ```

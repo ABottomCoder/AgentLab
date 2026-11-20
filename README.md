@@ -64,6 +64,18 @@ On purpose. Claude Code can write a lot of the code, but every task has a part i
 [hand-written] and [by hand] steps run on trust. Skipping them shows up at the gates, so there is no
 point.
 
+## What it costs
+
+Rough estimates, not measured; check each provider's current pricing and set a spending cap before the
+first call.
+
+- Claude Code: your existing subscription.
+- X API: charged per post returned; roughly a few dollars up to about $20 a month, depending on how many
+  accounts you watch and how often they post (RW1 makes you work out the real number).
+- Claude API (from HN2 on): a few dollars a month at this scale, more if you rerun evaluations often.
+- Discord, the HN API, the Gmail API: free.
+- Hosting the dashboard (JR12): free tiers are usually enough.
+
 ## Checks
 
 - About every two weeks we pull your repo, run it, and read the commits, PRs, `PROGRESS.md` and
