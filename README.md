@@ -19,14 +19,16 @@ JobRadar, finished, is a project you can talk about for 30 minutes in an intervi
 This starter repo is public; your work lives in a repo of your own.
 
 1. Clone the starter repo.
-2. On GitHub, create an **empty private** repo under your account (no README, no license).
+2. On GitHub, create an **empty** repo under your account (no README, no license). Public is simplest:
+   nothing personal is committed by design, and it doubles as a portfolio.
 3. Point your clone at it and push:
    ```bash
    git remote rename origin starter
    git remote add origin <your-repo-url>
    git push -u origin main
    ```
-4. In your repo's settings, add the people checking your work as collaborators, so they can pull it.
+4. Send your repo URL to the people checking your work. If you keep it private, add them as
+   collaborators so they can pull it. They only pull and run your code; they never push to your repo.
 
 Updates to the task list may land in the starter repo later; `git pull starter main` brings them in.
 
@@ -64,10 +66,11 @@ point.
 
 ## Checks
 
-- About every two weeks we pull the repo and read the commits, PRs, `PROGRESS.md` and evaluation results.
-  Feedback comes as a GitHub issue.
+- About every two weeks we pull your repo, run it, and read the commits, PRs, `PROGRESS.md` and
+  evaluation results. We do not change anything in it; feedback comes to you directly.
 - Each layer ends with a live gate (C1–C3 in TASKS.md).
-- The task list may change as you go. Changes come as PRs, so you will see them.
+- The task list may change as you go. Changes land in this starter repo; `git pull starter main`
+  brings them in.
 
 ## Map
 
